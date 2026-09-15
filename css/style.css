@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: coral;
+    border-bottom: 1px solid;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.info {
+    border: 1px solid;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
